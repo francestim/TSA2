@@ -1,0 +1,69 @@
+* 
+{             
+box-sizing: 
+border-box;         
+}   
+
+.weeks-cont, .box-ani {             
+    float: left;             
+    width: 50%;             
+    padding: 10px;             
+    height: 300px;             
+    padding: 50px;             
+    top: 90px;         
+}         
+
+.box-ani {             
+    height: 350px;             
+    width: 350px;                        
+    margin-top: 0px;     
+    transition: all 0.8s;   
+ }         
+
+.container::after {             
+    content: "";             
+    display: table;             
+    clear: both;         
+}         
+
+.mon{
+    background-color: purple;
+}
+
+.tues{
+    background-color: violet;
+}
+
+.wed{
+    background-color: blue;
+}
+
+.thurs{
+    background-color: greenyellow;
+}
+
+.fri{
+    background-color: yellow;
+}
+
+.sat{
+    background-color: orange;
+}
+
+.sun{
+    background-color: red;
+}
+
+button {             
+    display: block;             
+    padding: 10px;             
+    width: 150px;             
+    margin: 20px;         
+}         
+
+button:hover {             
+    padding: 20px;             
+    width: 170px;             
+    transition: 0.5s;         
+}
+
